@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: db2i_hva_m3fdbprd
+    description: "Tables brutes provenant de Fivetran pour M3"
+    database: FIVETRAN_DATABASE_PROD
+    schema: DB2I_HVA_M3FDBPRD
+    tables:
+      - name: CCUDIV
+      - name: CMNDIV
+      - name: CMNUSR
+      - name: CSYTAB
+      - name: MHDISL
+      - name: MITPCE
+      - name: MITWHL
+      - name: OCUSMA
+      - name: ODLINE
+      - name: OINVOL
+      - name: OOLINE
+      - name: OSBSTD
+
+      - name: CIDMAS
+      - name: MITHRY
+      - name: CSYCAL
+      - name: CSYSTS
+      - name: MITMAS
