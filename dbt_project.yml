@@ -18,3 +18,7 @@ models:
     gold:
       +materialized: table
       +schema: GOLD
+
+
+dbt-cloud:
+  project-id: 70471823531384

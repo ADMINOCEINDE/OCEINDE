@@ -9,4 +9,4 @@ SELECT
     RTRIM(CDBDAY) AS CDBDAY_type_jour_code,
     SUBSTRING(CAST(CDYWD5 AS CHAR(5)), 1, 4) AS CDYWD5_semaine_annee,
     SUBSTRING(CAST(CDYWD5 AS CHAR(5)), 3, 2) AS CDYWD5_semaine_num
-FROM {{ source('db2i_hva_m3fdbprd', 'CSYCAL') }}
+FROM {{ source('db_test', 'CSYCAL') }}

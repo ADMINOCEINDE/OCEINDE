@@ -6,4 +6,4 @@ SELECT
     RTRIM(CTSTKY) AS CTSTKY_cle,
     RTRIM(CTPARM) AS CTPARM_parametre,
     RTRIM(CTTX40) AS CTTX40_libelle
-FROM {{ source('db2i_hva_m3fdbprd', 'CSYTAB') }}
+FROM {{ source('db_test', 'CSYTAB') }}

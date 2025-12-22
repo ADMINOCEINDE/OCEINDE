@@ -10,4 +10,4 @@ SELECT
     RTRIM(OKCFC8) AS OKCFC8_groupement_code,  -- Nouvelle colonne
     RTRIM(OKCFC3) AS OKCFC3_groupe_client_code,  -- Renommée pour plus de clarté
     RTRIM(OKECAR) AS OKECAR_code_departement  -- Nouvelle colonne
-FROM {{ source('db2i_hva_m3fdbprd', 'OCUSMA') }}
+FROM {{ source('db_test', 'OCUSMA') }}

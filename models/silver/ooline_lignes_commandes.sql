@@ -14,4 +14,4 @@ SELECT
 --    OBDIP4 AS OBDIP4_remise_4,
 --    OBDIP5 AS OBDIP5_remise_5,
 --    OBDIP6 AS OBDIP6_remise_6
-FROM {{ source('db2i_hva_m3fdbprd', 'OOLINE') }}
+FROM {{ source('db_test', 'OOLINE') }}

@@ -21,4 +21,4 @@ SELECT
     UCDIA6 AS UCDIA6_remise_6,
     RTRIM(UCPIDE) AS UCPIDE_pied,
     RTRIM(UCAGNO) AS UCAGNO_numero_accord
-FROM {{ source('db2i_hva_m3fdbprd', 'OSBSTD') }}
+FROM {{ source('db_test', 'OSBSTD') }}

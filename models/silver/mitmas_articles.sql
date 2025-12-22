@@ -16,4 +16,4 @@ SELECT
     RTRIM(MMHIE4) AS MMHIE4_hier_stats_n4_sousgroupe_code,
     RTRIM(MMHIE5) AS MMHIE5_hier_stats_n5_famille_code,
     RTRIM(MMUNMS) AS MMUNMS_code_unite_gestion
-FROM {{ source('db2i_hva_m3fdbprd', 'MITMAS') }}
+FROM {{ source('db_test', 'MITMAS') }}
