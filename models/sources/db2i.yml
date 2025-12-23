@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: db_test
     description: "Tables brutes provenant de Fivetran pour m3_database"
-    database: FIVETRAN_DATABASE_PROD
+    database: FIVETRAN_DATABASE_DEV
     schema: M3FDBTST
     tables:
       - name: CCUDIV
